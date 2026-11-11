@@ -1,0 +1,122 @@
+.takhfif_rozane {
+    width: 1250px;
+    height: 700px;
+    background-color: #e2e2e2;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    .matns {
+        width: 95%;
+        height: 70px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+        margin-bottom: 20px;
+        h3 {
+            font-size: 22px;
+        }
+        h2 {
+            font-size: 35px;
+            span {
+                color: orangered;
+                font-size: 40px;
+            }
+        }
+    }
+    .boxs {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        .col1,
+        .col2 {
+            width: 365px;
+            height: 550px;
+            background-color: #ffffff;
+            border-radius: 15px;
+            &:hover {
+                box-shadow: 1px 1px 20px rgb(208, 206, 206);
+            }
+            img {
+                height: 60%;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                object-fit: cover;
+                margin: 0 auto;
+            }
+            h4 {
+                width: 90%;
+                margin: 0 auto;
+                margin-top: 30px;
+                font-weight: normal;
+            }
+            .price {
+                padding-right: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 100px;
+                .old_price {
+                    color: gray;
+                    text-decoration: line-through gray solid;
+                }
+                .takhfif_and_new_prace {
+                    line-height: 17px;
+                    .takhfif {
+                        color: orangered;
+                    }
+                    .new_price {
+                        color: rgb(27, 99, 208);
+                    }
+                }
+            }
+        }
+        .col3 {
+            width: 365px;
+            height: 550px;
+            display: flex;
+            flex-flow: column nowrap;
+            gap: 20px;
+            .row1,
+            .row2,
+            .row3 {
+                display: flex;
+                width: 380px;
+                height: 170px;
+                background-color: #ffffff;
+                border-radius: 15px;
+                &:hover {
+                    box-shadow: 1px 1px 20px rgb(208, 206, 206);
+                }
+                .info {
+                    display: flex;
+                    flex-flow: column nowrap;
+                    gap: 10px;
+                    h4 {
+                        font-weight: normal;
+                        display: block;
+                        width: 90%;
+                    }
+                    .old_price {
+                        color: gray;
+                        text-decoration: line-through gray solid;
+                        display: block;
+                        width: 90%;
+                    }
+                    .takhfif {
+                        color: orangered;
+                        display: block;
+                        width: 90%;
+                    }
+                    .new_price {
+                        color: rgb(27, 99, 208);
+                        display: block;
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
+}

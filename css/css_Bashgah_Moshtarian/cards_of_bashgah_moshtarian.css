@@ -1,0 +1,70 @@
+.card_asli,
+.card_sath1,
+.card_sath2,
+.card_sath3 {
+    width: 1270px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 40px;
+    box-shadow: 1px 1px 2px #3b3b3b;
+}
+.card_asli {
+    height: 715px;
+    padding: 30px;
+    h2 {
+        margin-bottom: 25px;
+        color: gray;
+        font-size: 30px;
+    }
+    img {
+        width: 95%;
+        border-radius: 15px;
+        margin-bottom: 5px;
+    }
+    p {
+        width: 90%;
+    }
+}
+
+.card_sath1,
+.card_sath2,
+.card_sath3 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    .image {
+        width: 133px;
+        img {
+            width: 90%;
+        }
+    }
+    .info {
+        width: 1146px;
+        height: fit-content;
+        pre {
+            color: gray;
+        }
+    }
+}
+
+.bronz {
+    color: rgb(238, 110, 36);
+}
+.silver {
+    color: silver;
+}
+.golden {
+    color: goldenrod;
+}
+.card_natige {
+    width: 385px;
+    height: 50px;
+    background-color: rgb(0, 0, 77);
+    border-radius: 5px;
+    margin: 100px auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
